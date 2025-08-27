@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Github, Linkedin, ArrowRight, ExternalLink, GraduationCap, Cpu, BarChart2, MapPin } from "lucide-react";
+import Link from "next/link";
 
 const NAME = "Wataru Ishihara";
 const TAGLINE = "Physics → Data → Product";
@@ -143,11 +144,12 @@ export default function Portfolio() {
                 <p className="mt-2 text-lg text-muted-foreground">{TAGLINE}</p>
                 <p className="mt-4 max-w-xl text-sm sm:text-base text-muted-foreground whitespace-pre-line">{SUMMARY}</p>
                 <div className="mt-5 flex flex-wrap gap-2">
+                
                 <Button asChild>
-                    <a href={CONTACT.resume}>
+                <Link href="/resume">
                     View Résumé
                     <ArrowRight className="ml-2 h-4 w-4" />
-                    </a>
+                </Link>
                 </Button>
                 <Button variant="secondary" asChild>
                     <a href={CONTACT.email}><Mail className="mr-2 h-4 w-4"/>Email</a>
@@ -211,6 +213,7 @@ export default function Portfolio() {
             </p>
             </motion.div>
         </section>
+        
 
         {/* Experience */}
         <section id="experience" className="mx-auto max-w-6xl px-4 py-8">
