@@ -71,6 +71,12 @@ const PROJECTS = [
         tags: ["PyTorch", "NLP", "Education"],
         link: "#"
     },
+    {
+        title: "Image Classification Models in PyTorch",
+        blurb: "Built a Convolutional Neural Network (CNN) to classify MNIST fashion dataset images with high accuracy",
+        tags: ["PyTorch", "NLP", "Education"],
+        link: "#"
+    },
   {
     title: "Deals Page Impact Story",
     blurb: "Showed activation via campaign page doubled order likelihood; proposed UX entry points.",
@@ -87,12 +93,6 @@ const PROJECTS = [
     title: "Bigram → Mini-Transformer",
     blurb: "Built teaching models in PyTorch to internalize attention and generation.",
     tags: ["PyTorch", "NLP", "Education"],
-    link: "#"
-  },
-  {
-    title: "DBD Electrode Notes",
-    blurb: "Materials/processing notes for gas diffusion electrodes and testing workflows.",
-    tags: ["Materials", "Notes"],
     link: "#"
   },
 ];
