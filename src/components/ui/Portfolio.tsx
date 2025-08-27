@@ -125,6 +125,7 @@ export default function Portfolio() {
             <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
             <a href="#home" className="font-semibold tracking-tight">{NAME}</a>
             <div className="hidden sm:flex gap-6 text-sm">
+                <a className='hover:opacity-80' href={CONTACT.resume} target="_blank" rel="noopener noreferrer">Résumé</a>
                 <a className="hover:opacity-80" href="#about">About</a>
                 <a className="hover:opacity-80" href="#experience">Experience</a>
                 <a className="hover:opacity-80" href="#projects">Projects</a>
