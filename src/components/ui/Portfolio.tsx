@@ -52,6 +52,16 @@ const EXPERIENCES = [
     ],
     tags: ["MATLAB", "Simulation", "Optimization"],
   },
+  {
+        org: "UC Davis Contuing & Professional Education",
+        role: "Bilingual Interpreter (Japanese/English)",
+        when: "2023–2025 · Davis, CA",
+        points: [
+            "Facilitated communication between Japanese-speaking students and English-speaking instructors in mini MBA courses.",
+            "Translated technical terms and concepts in business, finance, and marketing."
+        ],
+        tags: ["Japanese", "English", "Communication", "Business", "Finance"],
+    },
 ];
 
 const PROJECTS = [
