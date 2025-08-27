@@ -208,8 +208,8 @@ export default function Portfolio() {
             <motion.div {...fade}>
             <h2 className="text-xl font-semibold tracking-tight">About</h2>
             <p className="mt-3 text-muted-foreground max-w-3xl">
-                I like finding simple, actionable narratives in messy data. My recent work focuses on
-                first-session behavior, retention cohorts, and UX entry points that move the needle.
+                I have a passion for product analytics and machine learning, and enjoy translating data into actionable insights. With my background in physics and experience in data analysis, I bring a unique perspective to problem-solving and decision-making.
+                With my strong communication skills and ability to work collaboratively across teams, I am confident in my ability to make a meaningful impact in any organization.
             </p>
             </motion.div>
         </section>
